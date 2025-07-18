@@ -1,0 +1,22 @@
+{
+  "name": "chatbot-automatizacion-pagos",
+  "version": "1.0.0",
+  "description": "Proyecto de automatización para un flujo de chatbot que incluye una metodología de pago y la generación de recibos de pago.",
+  "main": "src/bot/chatbot.ts",
+  "scripts": {
+    "start": "ts-node src/bot/chatbot.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0",
+    "jest": "^27.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "@types/node": "^16.0.0"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
